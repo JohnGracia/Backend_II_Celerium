@@ -21,7 +21,7 @@ app.use(passport.initialize());
 app.use('/api/sessions', sessionsRouter);
 app.use('/api/users', usersRouter);
 
-// --- Conexión a MongoDB (ajusta a tu proyecto) ---
+// --- Conexión a MongoDB ---
 const MONGO_URI = process.env.MONGO_URI || 'mongodb://localhost:27017/celerium';
 mongoose.connect(MONGO_URI)
     .then(() => console.log('Mongo connected'))
