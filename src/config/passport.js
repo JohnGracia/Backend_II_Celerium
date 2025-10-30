@@ -2,14 +2,14 @@ import passport from "passport";
 import { Strategy as LocalStrategy } from "passport-local";
 import { Strategy as JwtStrategy, ExtractJwt } from "passport-jwt";
 import bcrypt from "bcrypt";
-import User from "../models/user.model.js"; // ✅ Import correcto con export default
+import User from "../models/user.model.js"; 
 
 const JWT_SECRET = process.env.JWT_SECRET || "c3l3r1umSuperSecretKey2025";
 
 export default function initializePassport() {
-    // -------------------------------------------------------------
-    // 📌 Estrategia LOCAL (para login con email y password)
-    // -------------------------------------------------------------
+
+    // Login con email y password
+
     passport.use(
         "local",
         new LocalStrategy(
@@ -38,9 +38,8 @@ export default function initializePassport() {
         )
     );
 
-    // -------------------------------------------------------------
-    // 📌 Estrategia JWT (para validar token)
-    // -------------------------------------------------------------
+    // Validar token
+
     const jwtOptions = {
         jwtFromRequest: ExtractJwt.fromAuthHeaderAsBearerToken(),
         secretOrKey: JWT_SECRET,
@@ -62,6 +61,5 @@ export default function initializePassport() {
         })
     );
 
-    // Alias “current” → usa la misma estrategia JWT
     passport.use("current", passport._strategy("jwt"));
 }
