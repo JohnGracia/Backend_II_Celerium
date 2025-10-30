@@ -1,0 +1,162 @@
+[
+    {
+        "title": "Licra Pierna Corta",
+        "description": "Licra corta para competencia",
+        "price": 45,
+        "stock": 50,
+        "category": "Indumentaria",
+        "thumbnails": []
+    },
+    {
+        "title": "Licra Pierna Larga",
+        "description": "Licra larga para entrenamiento",
+        "price": 50,
+        "stock": 40,
+        "category": "Indumentaria",
+        "thumbnails": []
+    },
+    {
+        "title": "Traje de Competición",
+        "description": "Traje aerodinámico completo",
+        "price": 120,
+        "stock": 10,
+        "category": "Indumentaria",
+        "thumbnails": []
+    },
+    {
+        "title": "Guantes Pro",
+        "description": "Guantes con refuerzo",
+        "price": 25,
+        "stock": 80,
+        "category": "Indumentaria",
+        "thumbnails": []
+    },
+    {
+        "title": "Cascos Speed",
+        "description": "Casco homologado de fibra",
+        "price": 85,
+        "stock": 25,
+        "category": "Protección",
+        "thumbnails": []
+    },
+    {
+        "title": "Rodilleras Flex",
+        "description": "Rodilleras con gel",
+        "price": 30,
+        "stock": 60,
+        "category": "Protección",
+        "thumbnails": []
+    },
+    {
+        "title": "Coderas Ultra",
+        "description": "Protección ligera",
+        "price": 22,
+        "stock": 70,
+        "category": "Protección",
+        "thumbnails": []
+    },
+    {
+        "title": "Ruedas 85mm",
+        "description": "Ruedas para pista",
+        "price": 60,
+        "stock": 100,
+        "category": "Componentes",
+        "thumbnails": []
+    },
+    {
+        "title": "Ruedas 72mm",
+        "description": "Ruedas entrenamiento",
+        "price": 40,
+        "stock": 120,
+        "category": "Componentes",
+        "thumbnails": []
+    },
+    {
+        "title": "Baleros ABEC9",
+        "description": "Conjunto de baleros de alta precisión",
+        "price": 35,
+        "stock": 200,
+        "category": "Componentes",
+        "thumbnails": []
+    },
+    {
+        "title": "Frame Aluminio",
+        "description": "Frame aluminio 4x110",
+        "price": 70,
+        "stock": 45,
+        "category": "Componentes",
+        "thumbnails": []
+    },
+    {
+        "title": "Tornillería Kit",
+        "description": "Set completo tornillos y tuercas",
+        "price": 10,
+        "stock": 300,
+        "category": "Componentes",
+        "thumbnails": []
+    },
+    {
+        "title": "Lentes Polarizados",
+        "description": "Lentes de protección UV",
+        "price": 28,
+        "stock": 85,
+        "category": "Protección",
+        "thumbnails": []
+    },
+    {
+        "title": "Calcetines Técnicos",
+        "description": "Calcetines de compresión",
+        "price": 8,
+        "stock": 200,
+        "category": "Accesorios",
+        "thumbnails": []
+    },
+    {
+        "title": "Mochila Celerium",
+        "description": "Mochila deportiva 30L",
+        "price": 55,
+        "stock": 30,
+        "category": "Accesorios",
+        "thumbnails": []
+    },
+    {
+        "title": "Botella 750ml",
+        "description": "Termo deportivo",
+        "price": 12,
+        "stock": 100,
+        "category": "Accesorios",
+        "thumbnails": []
+    },
+    {
+        "title": "Cinta de Agarre",
+        "description": "Cinta antideslizante",
+        "price": 6,
+        "stock": 150,
+        "category": "Accesorios",
+        "thumbnails": []
+    },
+    {
+        "title": "Repuesto Talón",
+        "description": "Refuerzo para talón",
+        "price": 9,
+        "stock": 60,
+        "category": "Componentes",
+        "thumbnails": []
+    },
+    {
+        "title": "Set Mantenimiento",
+        "description": "Herramientas para mantenimiento",
+        "price": 20,
+        "stock": 80,
+        "category": "Accesorios",
+        "thumbnails": []
+    },
+    {
+        "title": "Parche de Reparación",
+        "description": "Kit de reparación rápida",
+        "price": 5,
+        "stock": 120,
+        "category": "Accesorios",
+        "thumbnails": []
+    }
+]

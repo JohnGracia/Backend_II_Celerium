@@ -1,13 +1,14 @@
-export function authorizeRole(requiredRole) {
+export const authorizeRole = (role) => {
     return (req, res, next) => {
+        // Passport ya habrá agregado el usuario en req.user
         if (!req.user) {
-            return res.status(401).json({ message: "Unauthorized: No user data found" });
+            return res.status(401).json({ message: "Not authenticated" });
         }
 
-        if (req.user.role !== requiredRole) {
-            return res.status(403).json({ message: "Forbidden: Insufficient permissions" });
+        if (req.user.role !== role) {
+            return res.status(403).json({ message: "Forbidden: insufficient permissions" });
         }
 
-        next();
+        next(); // pasa al siguiente middleware o controlador
     };
-}
+};
